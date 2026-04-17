@@ -19,21 +19,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-/* Aquí pega el código de .movie-card que ya tenías */
-.movie-card {
-  background-color: #241843;
-  border-radius: 12px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-.movie-card:hover { transform: scale(1.05); }
-.image-container { position: relative; height: 240px; }
-.movie-image { width: 100%; height: 100%; object-fit: cover; }
-.badge { position: absolute; padding: 4px 8px; border-radius: 6px; font-size: 0.8rem; }
-.badge-rating { top: 8px; right: 8px; background-color: #fbbf24; color: black; }
-.badge-year { bottom: 8px; left: 8px; background-color: rgba(0,0,0,0.7); }
-.card-info { padding: 16px; }
-</style>
